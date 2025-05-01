@@ -1,0 +1,74 @@
+1. JS Object {}
+2. JS Object Destructuring/Extract
+3. Conditional Statement
+	3.1. If, If Else If, If elseif else if
+	3.2. Ternary Operator C?T:F;
+	
+	Driving License In India age ?
+	
+	How you can get input from user in JS ?
+	1. JS Prompt Box
+	
+	Enter your age for two-wheelers Driving License ?
+	
+	Marriage
+	Gender  F/M
+	Age 
+	
+	Male 21
+	Female 18 
+	 
+4. JS Loop Statement
+	4.1 For
+	4.2 For in
+	4.3 While
+	
+
+
+let student1 = {
+	firstname:"ravi",
+	lastname:"sharma"
+}
+
+
+How to add new property to a JS Object ?
+1. object["newPropertyNane"] = newValue
+2. object.newPropertyNane    = newValue
+3. using spread operator
+
+
+How to remove a property from JS Object ?
+
+1. There is only one way to remove property
+delete keyword
+
+Syntax
+delete object.property 
+delete object["property"]
+
+let student1 = {
+    fname:"Anil"
+}
+
+
+add surname
+
+
+... = JS Spread Operator/ Copy Operatory
+
+Syntax
+...objectName
+
+
+Nested Object
+{
+  P:V, 
+  P:{
+      P:{}
+      method
+    },
+}
+
+
+
+
