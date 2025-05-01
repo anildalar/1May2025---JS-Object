@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <script>
+            // JS Object {}
+
+            let student1 = {
+                fname:"Anil"
+            };
+
+            //Adding new Property
+            // object["newPropertyName"] =  value 
+            //surname
+            //1. Way
+            student1["surname"] = "Dollor";
+            //age
+
+            //2. Way
+            //person.age =  age 
+            //object.NewPropertyName =  value 
+            student1.age =  30; 
+
+
+
+            console.log(student1);
+        </script>
+
+        <script>
+            // ... JS Spread/Copy Operator
+
+            var student2 = {
+                //1. P:V
+                //1. "P":V
+                //1. 'P':V
+
+                "fname":"Chitransh",
+                'surname':"Paliwal",
+                address:"Neemuch",
+
+                //2. Method
+            }
+
+            //new proerty  
+            // MobNo 
+            //3. Way of defining new property
+            //Using Spread/Copy Operator ...
+            var student2 = {
+                ...student2,
+                mobno:"9979798797"
+                //1. P:V
+
+
+                //2. Method
+            }
+
+            console.log(student2);
+
+        </script>
+
+        <script>
+            let student3 = {
+                name:"Gourav"
+            }
+
+            // surname
+
+            // 4th way of creating property
+            //objectName[expression]
+            //person[x] = age ;
+            //object[expression] = newValue ;
+            let s = "surname";
+            student3[s] = "Dagwar"
+
+            console.log(student3);
+            
+        </script>
+        <script>
+            let student4 = {
+                firstname:"Sunil",
+                lastname:"Dollor",
+            }
+
+            console.log("Before removing >>",student4);
+
+            // delete object.property
+            delete  student4["firstname"];
+
+            console.log("After removing >>",student4);
+
+        </script>
+
+        <script>
+            //JS Nested Object
+
+            let student5 = {
+                fname:"Vishal",
+                favTeachers:{
+                    teacher1:"Sir A",
+                    teacher2:"Mam B",
+                    teacher3:"Sir C",
+                }
+            }
+
+
+            console.log(student5);
+            console.log("Hello "+student5["fname"]);
+            console.log("Hello "+student5["favTeachers"]["teacher1"]);
+            console.log("Hello "+student5["favTeachers"]["teacher2"]);
+        </script>
+    </body>
+</html>
